@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Build directory
+build/
+
+# Compile commands for clang or other tools
+compile_commads.json
