@@ -15,6 +15,9 @@ macro(run_conan)
         https://api.bintray.com/conan/bincrafters/public-conan)
 
     conan_cmake_run(
+        PROFILE
+        default
+
         REQUIRES
         ${CONAN_EXTRA_REQUIRES}
         boost/1.73.0
