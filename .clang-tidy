@@ -1,5 +1,5 @@
 ---
-Checks: '*,-fuchsia-*,-modernize-use-trailing-return-type,-abseil-*,-android-*,-google-*,-zircon-*,-llvm-header-guard'
+Checks: '*,-fuchsia-*,-modernize-use-trailing-return-type,-abseil-*,-android-*,-google-*,-zircon-*,-llvm-header-guard,-cert-err58-cpp,-cppcoreguidelines-pro-type-vararg'
 WarningsAsErrors: ''
 HeaderFilterRegex: ''
 FormatStyle:     none
